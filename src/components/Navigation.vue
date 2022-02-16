@@ -119,10 +119,10 @@ export default {
 * {
   padding: 0;
   margin: 0;
-  font-family: "Poppins", Helvetica, sans-serif;
 }
 
 header {
+  font-family: "Poppins", Helvetica, sans-serif;
   background-color: #fff;
   z-index: 99;
   width: 100%;
@@ -149,7 +149,7 @@ header {
     list-style: none;
     text-decoration: none;
     color: #333;
-
+    transition: 0.5s ease all;
     i {
       font-size: 18px;
 
@@ -181,10 +181,16 @@ header {
   .branding {
     display: flex;
     align-items: center;
+
     img {
+      width: 200px;
+      height: 50px;
+      transition: 0.5s ease all;
+      @media (min-width: 550px) {
       width: 300px;
       height: 60px;
       transition: 0.5s ease all;
+      }
     }
   }
 

@@ -40,9 +40,8 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #333;
     padding-left: 64px;
-
+    color: #FEFEFE;
     h4 {
       text-transform: uppercase;
       font-size: 22px;
@@ -63,10 +62,10 @@ export default {
 
     hr:nth-child(4) {
       height: 6px;
-      background-color: #333;
       border: none;
       max-width: 85px;
       margin-top: 16px;
+      background-color: #fefefe75;
     }
 
   }
